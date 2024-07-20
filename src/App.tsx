@@ -1,12 +1,12 @@
-import "./css/index.css";
 import React from "react";
-import ReactDOM from "react-dom";
 import { Form } from "./components/Form";
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <div className="App">
       <Form />
     </div>
   );
 };
+
+export default App;

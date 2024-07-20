@@ -20,5 +20,15 @@ button {
   font-weight: 400;
 
   --MAIN-PURPLE: #46005a;
+  --MAIN-PINK: #ff79ff;
   --MAIN-BACKGROUND: #696969;
+}
+
+body {
+  background-color: var(--MAIN-BACKGROUND);
+  color: var(--MAIN-PINK);
+}
+
+form {
+  margin: auto;
 }
