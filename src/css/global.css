@@ -1,3 +1,13 @@
+:root {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --MAIN-PURPLE: #46005a;
+  --MAIN-PINK: #ff79ff;
+  --MAIN-BACKGROUND: #696969;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,21 +24,7 @@ button {
   cursor: pointer;
 }
 
-:root {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  --MAIN-PURPLE: #46005a;
-  --MAIN-PINK: #ff79ff;
-  --MAIN-BACKGROUND: #696969;
-}
-
 body {
   background-color: var(--MAIN-BACKGROUND);
   color: var(--MAIN-PINK);
-}
-
-form {
-  margin: auto;
 }
