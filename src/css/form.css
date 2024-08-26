@@ -28,7 +28,7 @@ input[type="text"] {
   justify-content: center;
   background-color: var(--MAIN-PURPLE);
   padding: 2rem;
-  margin: 2rem 2rem;
+  margin: 2rem;
   border-radius: 5px;
 }
 
@@ -48,4 +48,32 @@ button {
   padding: 0.5rem;
   border-radius: 0.4rem;
   border: none;
+}
+
+.styled_list{
+  background-color: var(--MAIN-PURPLE);
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.styled_list li {  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--MAIN-LIGHT);
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
+  color: black;
+  margin: 1rem;
+}
+
+.styled_list li button {
+  background-color: rgb(49, 49, 49);
+  color: var(--MAIN-LIGHT);
+  transition: background-color 0.3s ease;
+}
+
+.styled_list li button:hover {
+  background-color: rgb(173, 1, 53);
 }

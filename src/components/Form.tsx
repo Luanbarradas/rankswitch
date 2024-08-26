@@ -15,7 +15,7 @@ export const Form: React.FC = () => {
   const [currentPole, setCurrentPole] = React.useState<number>(0);
   const [targetPole, setTargetPole] = React.useState<number>(0);
   const [result, setResult] = React.useState<number | null>(null);
-  const [rankList, setRankList] = React.useState<RankItem[]>([]); // Estado para a lista de ranques
+  const [rankList, setRankList] = React.useState<RankItem[]>([]); 
 
   const handleCalculate = () => {
     const myPole = polos.find((polo) => polo.id === currentPole);
@@ -95,7 +95,7 @@ export const Form: React.FC = () => {
         <button onClick={handleCalculate}>Calcular</button>
         {result !== null && <p>Nova Posição: {result}</p>}
       </div>
-      <div>
+      <div className="styled_list">
         <h2>Lista de Ranques:</h2>
         {rankList.length > 0 ? (
           <ul>

@@ -6,6 +6,7 @@
   --MAIN-PURPLE: #46005a;
   --MAIN-PINK: #ff79ff;
   --MAIN-BACKGROUND: #696969;
+  --MAIN-LIGHT: #fafafa;
 }
 
 * {
@@ -22,9 +23,18 @@ a {
 
 button {
   cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover{
+  background-color: #cacaca;
 }
 
 body {
   background-color: var(--MAIN-BACKGROUND);
   color: var(--MAIN-PINK);
+}
+
+ul{
+  list-style: none;
 }
